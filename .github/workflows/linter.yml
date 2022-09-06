@@ -27,6 +27,9 @@ jobs:
         uses: azohra/shell-linter@v0.6.0
         with:
           path: script.sh
-      
+          
+      - name: change permissions
+        run: chmod +x script.sh
+        
       - name: run script
-        run: ~/script.sh
+        run: ./script.sh
