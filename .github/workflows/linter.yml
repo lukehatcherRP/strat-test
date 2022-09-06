@@ -32,4 +32,4 @@ jobs:
         run: chmod +x script.sh
         
       - name: run script
-        run: ./script.sh
+        run: ./script.sh "John Doe"
