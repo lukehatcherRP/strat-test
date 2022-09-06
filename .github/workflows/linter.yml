@@ -27,3 +27,6 @@ jobs:
         uses: azohra/shell-linter@v0.6.0
         with:
           path: script.sh
+      
+      - name: run script
+        run: ./script.sh
