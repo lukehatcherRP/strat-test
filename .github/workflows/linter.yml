@@ -29,4 +29,4 @@ jobs:
           path: script.sh
       
       - name: run script
-        run: sudo ~/script.sh
+        run: ~/script.sh
