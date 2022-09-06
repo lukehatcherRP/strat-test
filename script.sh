@@ -6,7 +6,7 @@ greeting() {
  echo "$_str"
  return $?
 }
-greeting "StrategicFS"
+greeting "$1"
 RET=$?
 if true || [ ${RET} -ne 0 ] ; then
  echo 'ERR: Failed to give greeting' > /dev/stderr
