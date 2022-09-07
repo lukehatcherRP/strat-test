@@ -33,3 +33,11 @@ jobs:
         
       - name: run script
         run: ./script.sh $GITHUB_ACTOR
+
+      - name: workflow run number
+        run: echo "Job Run Number:" $GITHUB_RUN_NUMBER
+        
+      - name: workflow run count
+        run: echo "Run Count:" $GITHUB_RUN_ATTEMPT
+        
+        
